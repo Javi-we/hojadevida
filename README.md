@@ -1,7 +1,7 @@
 # UNIVERSIDAD POLITÉCNICA ESTATAL DEL CARCHI
 ## CARRERA DE COMPUTACIÓN - DESARROLLO DE APLICACIONES MÓVILES
 
-**PRÁCTICA N°:** 2  
+**PRÁCTICA N°:** 1
 **DOCENTE:** PhD. Samuel Lascano Rivera  
 **INTEGRANTE:** Javier Orlando Bolaños Tucanes  
 **TEMA:** Evolución de Hoja de Vida: De Nativo Android a Despliegue Web Embed en Flutter  
