@@ -91,6 +91,21 @@ cv_flutter_wrapper/
 | **Acceso a APIs Nativas** | **Directo e Ilimitado.** Acceso nativo a Bluetooth, sensores, cámara, almacenamiento y background tasks sin intermediarios. | **Mediante Puente / Wrapper.** El contenedor Flutter debe exponer las APIs nativas (llamadas, compartir, GPS) e interactuar con el WebView mediante Javascript Channels. |
 | **Mantenibilidad** | Requiere mantener dos repositorios separados si existe una plataforma web. | Facilita actualizaciones centralizadas: cambiar el HTML/CSS del servidor actualiza automáticamente la App sin recompilar la APK. |
 
+
+
+
+Captura de la Web Responsiva (Fase 1):
+Hoja de Vida abierta en el navegador web (Google Chrome / Edge) mostrando el diseño responsivo.
+
+
+<img width="786" height="392" alt="image" src="https://github.com/user-attachments/assets/ea8ceb3e-9f8a-4b93-9bd9-41e57441d711" />
+
+Captura de la App en Ejecución (Fase 2):
+Emulador Android (Pixel 10 Pro) ejecutando la aplicación nativa/embed con la Hoja de Vida en pantalla.
+
+<img width="372" height="667" alt="image" src="https://github.com/user-attachments/assets/437e01d1-2a94-4363-8b41-551b2ec71751" />
+
+
 ---
 
 ## 💡 CONCLUSIONES
