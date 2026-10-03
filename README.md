@@ -94,12 +94,12 @@ cv_flutter_wrapper/
 ---
 
 ## 💡 CONCLUSIONES
-
 En conclusión, el uso de Flutter con webview_flutter permitió aprovechar una página web que ya estaba desarrollada con HTML, CSS y JavaScript. Esto ayudó a reducir el tiempo necesario para crear la aplicación y también facilitó su mantenimiento, ya que no fue necesario desarrollar todo nuevamente desde cero.
 
 También se pudo comprobar que, aunque una aplicación desarrollada de forma nativa puede tener un mejor rendimiento y consumir menos memoria, el uso de un contenedor híbrido ofrece una ventaja importante. Las actualizaciones de la interfaz pueden hacerse directamente desde el servidor, sin tener que crear y publicar una nueva versión de la aplicación cada vez que se realiza un cambio.
 
 Finalmente, la combinación de elementos propios de Flutter con el contenido web dentro del WebView permitió crear una aplicación más completa y funcional. De esta manera, se pueden aprovechar las ventajas del desarrollo web junto con herramientas nativas como botones, navegación, enlaces y opciones para compartir contenido.
+
 ---
 
 ## 📚 BIBLIOGRAFÍA
