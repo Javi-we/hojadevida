@@ -95,15 +95,11 @@ cv_flutter_wrapper/
 
 ## 💡 CONCLUSIONES
 
-1. **Eficiencia en la Reutilización de Código y Reducción de Tiempos de Desarrollo:**  
-   La arquitectura de contenedor híbrido en Flutter mediante `webview_flutter` demostró que es posible reutilizar al 100% una interfaz web responsiva (HTML5/CSS3/JS), reduciendo significativamente el tiempo de desarrollo multiplataforma en comparación con la implementación nativa individual en Kotlin/XML.
+En conclusión, el uso de Flutter con webview_flutter permitió aprovechar una página web que ya estaba desarrollada con HTML, CSS y JavaScript. Esto ayudó a reducir el tiempo necesario para crear la aplicación y también facilitó su mantenimiento, ya que no fue necesario desarrollar todo nuevamente desde cero.
 
-2. **Compromiso entre Rendimiento y Flexibilidad de Despliegue:**  
-   Si bien el desarrollo nativo en Android Studio ofrece una tasa de refresco y respuesta a eventos táctiles superior con un menor consumo de memoria RAM, el enfoque embebido compensa esta diferencia técnica mediante la flexibilidad de actualización instantánea (en vivo) desde el servidor remoto sin necesidad de distribuir una nueva versión de la APK a los usuarios.
+También se pudo comprobar que, aunque una aplicación desarrollada de forma nativa puede tener un mejor rendimiento y consumir menos memoria, el uso de un contenedor híbrido ofrece una ventaja importante. Las actualizaciones de la interfaz pueden hacerse directamente desde el servidor, sin tener que crear y publicar una nueva versión de la aplicación cada vez que se realiza un cambio.
 
-3. **Integración Armónica de Controles Nativos y Contenido Web:**  
-   La implementación de la *AppBar*, la *BottomNavigationBar* y las acciones de integración con el sistema operativo (llamadas telefónicas con `url_launcher` y compartir perfil con `share_plus`) en Flutter demuestra que un contenedor híbrido bien diseñado potencia la experiencia de usuario al combinar la flexibilidad estética del desarrollo web con la robustez funcional de las APIs nativas.
-
+Finalmente, la combinación de elementos propios de Flutter con el contenido web dentro del WebView permitió crear una aplicación más completa y funcional. De esta manera, se pueden aprovechar las ventajas del desarrollo web junto con herramientas nativas como botones, navegación, enlaces y opciones para compartir contenido.
 ---
 
 ## 📚 BIBLIOGRAFÍA
