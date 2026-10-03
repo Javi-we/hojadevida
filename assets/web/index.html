@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida - Javier Orlando Bolaños Tucanes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navegación Móvil y Desktop -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-brand">
+            <span>JB</span> Javier Bolaños
+        </div>
+        <div class="nav-actions">
+            <button id="theme-toggle" class="btn-icon" title="Cambiar tema">
+                <span id="theme-icon">🌙</span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Cabecera Principal / Perfil -->
+    <header class="hero-section">
+        <div class="hero-container">
+            <div class="avatar-wrapper">
+                <img src="profile_photo.jpg" alt="Javier Orlando Bolaños Tucanes" class="avatar-img" onerror="this.src='https://via.placeholder.com/150?text=Javier+Bola%C3%B1os'">
+                <span class="online-status" title="Disponible para proyectos"></span>
+            </div>
+            <div class="hero-content">
+                <h1>Javier Orlando Bolaños Tucanes</h1>
+                <p class="hero-subtitle">Estudiante de Ingeniería en Computación | Desarrollador de Software & Soporte TI</p>
+                <div class="location-badge">
+                    📍 Barrio "El Portal", Tulcán, Carchi, Ecuador
+                </div>
+                <div class="hero-buttons">
+                    <a href="tel:0995921363" class="btn btn-primary">📞 Llamar (0995921363)</a>
+                    <a href="mailto:sotgg45@gmail.com" class="btn btn-secondary">✉️ Enviar Email</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main class="main-container">
+
+        <!-- Barra de Navegación Rápida -->
+        <div class="quick-nav">
+            <a href="#resumen" class="q-link active">Resumen</a>
+            <a href="#experiencia" class="q-link">Experiencia</a>
+            <a href="#formacion" class="q-link">Educación</a>
+            <a href="#aptitudes" class="q-link">Habilidades</a>
+            <a href="#contacto" class="q-link">Contacto</a>
+        </div>
+
+        <!-- Resumen Profesional -->
+        <section id="resumen" class="card-section">
+            <h2 class="section-title">
+                <span class="title-icon">📄</span> Resumen Profesional
+            </h2>
+            <div class="card-body">
+                <p class="resumen-text">
+                    Estudiante de Ingeniería en Computación en la <strong>Universidad Politécnica Estatal del Carchi (UPEC)</strong>. Apasionado por el desarrollo de software y la arquitectura de aplicaciones web utilizando tecnologías como <strong>.NET (C#), JavaScript y PostgreSQL</strong>. Cuento con experiencia práctica en mantenimiento de infraestructura tecnológica, reestructuración de redes locales, despliegue de sistemas de videovigilancia y capacitación docente en Inteligencia Artificial. Adicionalmente, me desempeño en el área de diseño y corte láser, aplicando habilidades en optimización de gráficos vectoriales y arte lineal minimalista.
+                </p>
+                <div class="personal-info-grid">
+                    <div class="info-item"><strong>Nacionalidad:</strong> Ecuatoriano</div>
+                    <div class="info-item"><strong>Cédula:</strong> 045014252-6</div>
+                    <div class="info-item"><strong>Estado Civil:</strong> Soltero</div>
+                    <div class="info-item"><strong>Idiomas:</strong> Español (Nativo C2), Inglés (C1), Portugués (A2)</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Historial Laboral -->
+        <section id="experiencia" class="card-section">
+            <h2 class="section-title">
+                <span class="title-icon">💼</span> Historial Laboral
+            </h2>
+            <div class="card-body">
+                <div class="timeline">
+                    <!-- Trabajo 1 -->
+                    <article class="timeline-item">
+                        <div class="timeline-header" onclick="toggleAccordion('exp1')">
+                            <div>
+                                <h3>Diseñador y Operador de Corte Láser</h3>
+                                <p class="timeline-company">🏢 Extreme Design - Tulcán, Carchi</p>
+                            </div>
+                            <span class="timeline-date">04/2024 - Actual</span>
+                        </div>
+                        <div id="exp1" class="timeline-content active">
+                            <ul>
+                                <li>Diseño y vectorización de planos precisos para diversos materiales, asegurando un encaje perfecto y optimización de materia prima.</li>
+                                <li>Operación, calibración y mantenimiento preventivo de maquinaria de corte láser.</li>
+                                <li>Optimización de flujos de trabajo, logrando reducir significativamente los tiempos de entrega y elevando los estándares de calidad del producto final.</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <!-- Trabajo 2 -->
+                    <article class="timeline-item">
+                        <div class="timeline-header" onclick="toggleAccordion('exp2')">
+                            <div>
+                                <h3>Desarrollador de Software y Soporte de TI</h3>
+                                <p class="timeline-company">🏢 Universidad Politécnica Estatal del Carchi (UPEC)</p>
+                            </div>
+                            <span class="timeline-date">11/2023 - Actual</span>
+                        </div>
+                        <div id="exp2" class="timeline-content active">
+                            <ul>
+                                <li>Diseño e implementación de aplicaciones web robustas aplicando POO y arquitectura limpia.</li>
+                                <li>Diseño de esquemas relacionales y optimización de consultas en bases de datos (PostgreSQL, SQL Server).</li>
+                                <li>Mantenimiento de hardware, configuración de redes LAN y sistemas de videovigilancia.</li>
+                                <li>Uso de tecnologías como .NET (C#), JavaScript, HTML, PostgreSQL, SQL Server, Git y GitHub.</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formación Académica -->
+        <section id="formacion" class="card-section">
+            <h2 class="section-title">
+                <span class="title-icon">🎓</span> Formación Académica
+            </h2>
+            <div class="card-body">
+                <div class="edu-grid">
+                    <div class="edu-card">
+                        <div class="edu-badge">En Curso</div>
+                        <h3>Ingeniería en Computación</h3>
+                        <p class="edu-inst">Universidad Politécnica Estatal del Carchi - Tulcán</p>
+                        <span class="edu-period">📅 11/2023 - Actualidad</span>
+                    </div>
+                    <div class="edu-card">
+                        <div class="edu-badge secondary">Graduado</div>
+                        <h3>Bachiller Técnico en Electrónica de Consumo</h3>
+                        <p class="edu-inst">Unidad Educativa Vicente Fierro - Tulcán</p>
+                        <span class="edu-period">📅 01/2015 - 07/2021</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Aptitudes / Filtro Interactivo -->
+        <section id="aptitudes" class="card-section">
+            <h2 class="section-title">
+                <span class="title-icon">⚡</span> Aptitudes y Competencias Técnicas
+            </h2>
+            <div class="card-body">
+                <!-- Botones de Filtro JS -->
+                <div class="filter-buttons">
+                    <button class="filter-btn active" onclick="filterSkills('all')">Todas</button>
+                    <button class="filter-btn" onclick="filterSkills('dev')">Desarrollo Web & .NET</button>
+                    <button class="filter-btn" onclick="filterSkills('db')">Bases de Datos</button>
+                    <button class="filter-btn" onclick="filterSkills('hardware')">Hardware & Redes</button>
+                    <button class="filter-btn" onclick="filterSkills('laser')">CNC & Láser</button>
+                </div>
+
+                <div class="skills-grid" id="skills-container">
+                    <div class="skill-chip" data-category="laser">📐 Programación y Operación CNC / Láser</div>
+                    <div class="skill-chip" data-category="dev">💻 Desarrollo .NET (C#) & Arquitectura Limpia</div>
+                    <div class="skill-chip" data-category="dev">🌐 JavaScript, HTML5 & CSS3 Responsive</div>
+                    <div class="skill-chip" data-category="db">🗄️ PostgreSQL & SQL Server</div>
+                    <div class="skill-chip" data-category="laser">🎨 Optimización de Gráficos Vectoriales</div>
+                    <div class="skill-chip" data-category="hardware">📡 Redes LAN & Videovigilancia</div>
+                    <div class="skill-chip" data-category="hardware">🛠️ Mantenimiento Preventivo de Hardware</div>
+                    <div class="skill-chip" data-category="dev">🔄 Control de Versiones Git & GitHub</div>
+                    <div class="skill-chip" data-category="dev">💡 Adaptabilidad & Aprendizaje Continuo</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pasatiempos -->
+        <section id="pasatiempos" class="card-section">
+            <h2 class="section-title">
+                <span class="title-icon">🎨</span> Pasatiempos e Intereses
+            </h2>
+            <div class="card-body">
+                <div class="hobbies-grid">
+                    <div class="hobby-card">
+                        <span class="hobby-icon">🏀</span>
+                        <h4>Deportes Activos</h4>
+                        <p>Básquetbol y trotar al aire libre constantemente.</p>
+                    </div>
+                    <div class="hobby-card">
+                        <span class="hobby-icon">✈️</span>
+                        <h4>Viajes & Exploración</h4>
+                        <p>Disfruto viajar para explorar nuevos lugares y culturas.</p>
+                    </div>
+                    <div class="hobby-card">
+                        <span class="hobby-icon">✏️</span>
+                        <h4>Arte Lineal</h4>
+                        <p>Ilustración digital y diseño minimalista en tiempo libre.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formulario de Contacto Interactivo -->
+        <section id="contacto" class="card-section">
+            <h2 class="section-title">
+                <span class="title-icon">📬</span> Contacto Directo
+            </h2>
+            <div class="card-body">
+                <form id="contact-form" onsubmit="handleFormSubmit(event)" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nombre Completo:</label>
+                        <input type="text" id="name" required placeholder="Tu nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico:</label>
+                        <input type="email" id="email" required placeholder="ejemplo@correo.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje:</label>
+                        <textarea id="message" rows="4" required placeholder="Escribe tu mensaje aquí..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Enviar Mensaje</button>
+                    <div id="form-feedback" class="form-feedback"></div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <p>© 2026 <strong>Javier Orlando Bolaños Tucanes</strong> - Hoja de Vida Embed Web / Flutter Wrapper</p>
+        <p class="upec-tag">Universidad Politécnica Estatal del Carchi - Desarrollo de Aplicaciones Móviles</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
